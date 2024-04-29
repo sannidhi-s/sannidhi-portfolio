@@ -4,21 +4,22 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  /* background-image: linear-gradient(80deg, #e17878, #ecd4bd, #e9a981); */
-  /* background-image: url("/Users/sunny/Documents/GitHub/sannidhi-portfolio/public/img/mesh.jpg");
-  background-size: cover; */
-  background-color: rgb(0, 0, 0);
- 
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+  background-color: #f8f8f8;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -moz-osz-font-smoothing: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   font-style: normal;
+
 }
 
-h1, 
+h1,
 h2,
-h3, 
-h4, 
+h3,
+h4,
 h5,
 h6,
 p {
@@ -38,65 +39,6 @@ p {
   --t2: #f582ae;
   --pink: #f582ae;
 }
-
-.btn {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: inline-block;
-  padding: 14px 32px;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  transition: background-color 0.5s;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -ms-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-}
-
-.btn-outline-primary {
-  color: var(--primary);
-  background-color: var(--white);
-  border: 1px solid var(--primary);
-}
-.btn-outline-primary:hover {
-  color: var(--white);
-  background-color: var(--black);
-}
-.btn-primary {
-  color: var(--white);
-  background-color: var(--primary);
-  border: 1px solid var(--primary);
-}
-.btn-primary:hover {
-  color: var(--black);
-  background-color: var(--white);
-}
-.btn-github {
-  color: var(--white);
-  background-color: var(--github);
-  border: var(--github);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
-  gap: 16px;
-}
-
-.btn-github:hover {
-  color: var(--github);
-  background-color: var(--white); 
-}
-
 /* Global CSS ends here */
 
 /* Main headings */
@@ -107,12 +49,14 @@ h1 {
   font-weight: 700;
   line-height: 67px;
 }
+
 /* heading 2 */
 h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 50px;
 }
+
 /* heading 3 */
 h3 {
   font-size: 24px;
@@ -130,6 +74,7 @@ h3 {
   font-weight: 400;
   line-height: 27px;
 }
+
 /* body 2 */
 .text-md {
   color: var(--darkblue);
@@ -138,6 +83,7 @@ h3 {
   font-weight: 400;
   line-height: 24px;
 }
+
 /* body 3 */
 .text-sm {
   color: var(--black);
@@ -147,40 +93,44 @@ h3 {
   line-height: 21px;
 }
 
-/* Section Titles */
-/* Skills and About Me */
-/* .section--title {
-
-} */
-
 .intro {
-  color: rgb(0, 0, 0);
+  color: black;
   overflow: hidden;
-  border-right: .15em solid #f07676;
+  border-right: .15em solid #ffa2b6;
   white-space: nowrap;
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em;
   font-size: 50px;
   text-align: center;
-  font-style:oblique;
+  font-style: oblique;
   font-weight: bolder;
-/* 
-  display: flex;
-  align-items: flex-start; */
-  animation: 
-  typing 3.5s steps(50, end), forwards
-  blink-caret .9s step-end;
+  margin-bottom: 100px;
+  animation:
+    typing 3.5s steps(50, end), forwards blink-caret .9s step-end;
 }
 
 @keyframes typing {
-  from { width: 0}
-  to { width: 100%}
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #f07676; }
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: #f07676;
+  }
 }
 
 
@@ -204,23 +154,55 @@ h3 {
   align-items: center;
   justify-content: space-between;
   gap: 32px;
-  border: 2px solid #f07676;
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
-  
-  
-  /* background-color: rgba(255,255,255,0.5); */
-  
+  /* border: 2px solid #f07676;
+  border-radius: 10px; */
+  /* margin-right: 20px;
+  margin-left: 20px; */
+
+
+
   margin-top: 150px;
 }
 
-.welcome--content--box {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
+.experience-section {
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  padding: 122.333px 85.333px 122.333px;
+  align-items: center;
+  justify-content: space-between;
   gap: 32px;
+  /* border: 2px solid #f07676;
+  border-radius: 10px; */
+  /* margin-right: 20px;
+  margin-left: 20px; */
+
+
+
+  margin-top: 150px;
 }
+
+.ack-section {
+
+  padding: 122.333px 85.333px 122.333px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 150px;
+  
+
+}
+
+.contact-section {
+
+  padding: 122.333px 85.333px 122.333px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+
+}
+
 
 .welcome--content {
   display: flex;
@@ -229,9 +211,17 @@ h3 {
   gap: 21.33px;
 }
 
-.welcome--content--box > button {
-  margin-top: 21.333px;
+.experience-box {
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 21.33px;
 }
+
+
+
+
 
 .welcome--section--title {
   color: var(--t2);
@@ -244,28 +234,29 @@ h3 {
 }
 
 .welcome--title--colour {
-  color: #5b5b4a;
-  
+  color: black;
+
   /* color: #000080; */
 }
 
 .welcome--desc {
   color: black;
   font-size: 19px;
-  font-weight: 200;
   line-height: 2;
-  /* align-items: center; */
- 
+
+}
+.ack--desc {
+  color: black;
+  font-size: 19px;
+  line-height: 2;
+
 }
 
-.welcome--image > img {
+.welcome--image>img {
   width: 100%;
   height: 100%;
 }
 
-/* Welcome Section Style ends */
-
-/* padding for image logo start */
 .logopadding {
   padding-top: 10px;
   padding-left: 15px;
@@ -279,28 +270,20 @@ h3 {
   line-height: 90px;
   align-items: center;
 }
-/* 
-.navbar-toggler {
-  border: none;
-  font-size: 1.25rem;
-  
-}
 
-.navbar-toggler:focus, .btn-close:focus {
-  box-shadow: none;
-  outline: none;
-} */
 
 .nav-link {
-  color: #000000;
+  color: black;
   font-weight: 400;
   position: relative;
 
 }
 
-.nav-link:hover, .nav-link.active {
-  color: #000080;
+.nav-link:hover,
+.nav-link.active {
+  color: grey;
 }
+
 @media (min-width: 991px) {
   .nav-link::before {
     content: "";
@@ -310,8 +293,8 @@ h3 {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    /* background-color: #ffffff; */
-    background-color: #f07676;
+
+    background-color: #ffa2b6;
     visibility: hidden;
     transition: ease-in-out 0.3s;
 
@@ -327,7 +310,7 @@ h3 {
 .navbar-brand {
   font-weight: 1000;
   text-decoration: none;
-  color: #000000;
+  color: black;
   font-size: 18px;
   transition: 0.3s color;
 }
@@ -335,15 +318,40 @@ h3 {
 
 .navbar {
   /* background: transparent; */
-  backdrop-filter: blur(0.5);
+  backdrop-filter: blur(15px);
   border-radius: 16px;
-  background-color: rgba(245, 245, 245, 0.8);
+  /* background-color: rgba(245, 245, 245, 0.8); */
   /* background-color: whitesmoke; */
   margin: 20px;
 
 }
 
 
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
 
- 
+.timeline .timeline-item {
+  position: relative;
+}
 
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+.goals {
+  list-style-type: none;
+}

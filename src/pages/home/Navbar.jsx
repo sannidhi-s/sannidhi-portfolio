@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import React, { useEffect } from 'react';
-import 'bootstrap/dist/js/bootstrap.bundle';
+// import 'bootstrap/dist/js/bootstrap.bundle';
 
 
 
@@ -45,8 +45,9 @@ export default function NavBar () {
              
                 <Nav.Link className="mg-lx-2" href="#heroSection" >About</Nav.Link>
                 <Nav.Link className="mg-lx-2" href="#experience">Experience</Nav.Link>
-                <Nav.Link className="mg-lx-2" href="#resume" >Resume</Nav.Link>
-                <Nav.Link className="mg-lx-2" href="#contact">Contact</Nav.Link>
+                {/* <Nav.Link className="mg-lx-2" href="#resume" >Resume</Nav.Link> */}
+                <Nav.Link className="mg-lx-2" href="#acknowledgements" >Acknowledgements</Nav.Link>
+                {/* <Nav.Link className="mg-lx-2" href="#contact">Contact</Nav.Link> */}
                 
 
               </Nav>
@@ -59,6 +60,7 @@ export default function NavBar () {
     </>
   );
 }
+
 
 
 
