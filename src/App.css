@@ -101,7 +101,7 @@ h3 {
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em;
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   font-style: oblique;
   font-weight: bolder;
@@ -225,7 +225,7 @@ h3 {
 
 .welcome--section--title {
   color: var(--t2);
-  font-size: 74px;
+  font-size: 70px;
   font-weight: 200;
   line-height: 90px;
   align-self: stretch;
@@ -241,13 +241,13 @@ h3 {
 
 .welcome--desc {
   color: black;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 2;
 
 }
 .ack--desc {
   color: black;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 2;
 
 }
@@ -354,4 +354,7 @@ h3 {
 
 .goals {
   list-style-type: none;
+}
+.desc {
+  font-size: 11px;
 }

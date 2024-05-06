@@ -22,9 +22,18 @@ export default function Footer() {
 
 <div>
 
-        <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+
+
+        <div className='text-center text-dark p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
            2024 Work Term Report: Sannidhi Salibindla
         </div>
+
+        <div className='desc text-center text-muted p-3 fst-italic' >
+           This website was built using a combination of React, React-Bootstrap, and MDBootsrap.
+        </div>
+
+
+
 
     
         
