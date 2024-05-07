@@ -1,7 +1,7 @@
 import HeroSection from "../AboutMe";
 import MyExperience from "../Experience"
 import Footer from "../Footer";
-import Acknowledgements from "../../Acknowledgements";
+import Acknowledgements from "../Acknowledgements";
 
 
 
