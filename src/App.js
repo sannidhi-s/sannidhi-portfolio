@@ -12,19 +12,17 @@ import Home from './pages/home/homescreen';
 function App() {
   return (
     <div className="App"> 
-      <Router>
+
+    <Navbar />
+    <Home />
+      {/* <Router>
         <div>
           <Navbar />
-          <p> HELLO</p>
-          <Routes>
-      
+          <Routes>    
             <Route path="/" element={<Home />}/>
-
-     
           </Routes>
-
         </div>
-      </Router>
+      </Router> */}
     </div>
   );
 }
