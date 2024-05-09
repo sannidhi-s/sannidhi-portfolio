@@ -15,6 +15,7 @@ function App() {
       <Router>
         <div>
           <Navbar />
+          <Home />
 
           <Routes>
       
