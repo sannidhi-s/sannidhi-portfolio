@@ -12,11 +12,7 @@ import Acknowledgements from "../Acknowledgements";
 export default function Home () {
     return (
         <>
-        
-        {/* <WelcomeMessage/> */}
     
-
-
         <div id="heroSection" className="scrollspy-section">
         <HeroSection/>
         </div>
@@ -27,15 +23,6 @@ export default function Home () {
         <Acknowledgements/>
         </div>
         <Footer/>
-        
-        
-        
-        
-
-
-
-
- 
 
         </>
     );
