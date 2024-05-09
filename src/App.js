@@ -15,8 +15,7 @@ function App() {
       <Router>
         <div>
           <Navbar />
-
-Hellooooooooo
+          <p> HELLO</p>
           <Routes>
       
             <Route path="/" element={<Home />}/>
