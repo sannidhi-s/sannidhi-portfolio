@@ -16,6 +16,9 @@ body {
 
 }
 
+
+
+
 h1,
 h2,
 h3,
@@ -101,7 +104,7 @@ h3 {
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .10em;
-  font-size: 45px;
+  font-size: 3vw;
   text-align: center;
   font-style: oblique;
   font-weight: bolder;
@@ -323,6 +326,11 @@ h3 {
   /* background-color: whitesmoke; */
   margin: 20px;
 
+}
+@media (max-width: 767.98px) {
+  .nav-link {
+    text-align: center;
+  }
 }
 
 
