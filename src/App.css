@@ -284,7 +284,6 @@ h3 {
   color: grey;
 }
 
-@media (min-width: 991px) {
   .nav-link::before {
     content: "";
     position: absolute;
@@ -305,7 +304,7 @@ h3 {
     width: 100%;
     visibility: visible;
   }
-}
+
 
 .navbar-brand {
   font-weight: 1000;
@@ -325,6 +324,7 @@ h3 {
   margin: 20px;
 
 }
+
 
 
 .timeline {
